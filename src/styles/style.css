@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sigmar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sigmar&display=swap");
+.banner {
+  display: flex;
+  background: url("../assets/banner.jpeg") 27% no-repeat;
+  background-size: cover;
+  min-height: 350px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+.banner__inner {
+  padding: 3rem;
+  border-radius: 24px;
+  background-color: #ffed4a;
+}
+.banner__inner h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #9561e2;
+}
+.banner__inner h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.container {
+  box-sizing: border-box;
+}
+.container__menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.container__menu__logo {
+  font-size: 2rem;
+}
+.container__menu__navbar {
+  display: flex;
+  gap: 2rem;
+}
+.container__menu__navbar__link {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: #6390F0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container__menu__navbar__link:hover {
+  border-bottom: solid #6F35FC 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */

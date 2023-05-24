@@ -1,0 +1,40 @@
+@import './variables';
+
+.container{
+    box-sizing: border-box;
+
+    &__menu{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        
+
+        
+            &__logo{
+                font-size: 2rem;
+            }
+
+      &__navbar{
+        display: flex;
+        gap: 2rem;
+
+            &__link{
+                text-decoration: none;
+                font-family: $font-family-sans-serif;
+                color: $water;
+                text-transform: uppercase;
+                font-weight: bold;
+                
+                    &:hover{
+                        border-bottom:solid $dragon 3px;
+                    }
+                    
+                
+            }
+
+      }  
+    }
+}
+
