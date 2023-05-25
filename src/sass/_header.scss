@@ -14,6 +14,7 @@
         
             &__logo{
                 font-size: 2rem;
+                font-family: $font-family-sans-serif;
             }
 
       &__navbar{
@@ -30,11 +31,13 @@
                     &:hover{
                         border-bottom:solid $dragon 3px;
                     }
-                    
+
                 
             }
 
       }  
     }
 }
+
+
 

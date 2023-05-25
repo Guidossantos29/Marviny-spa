@@ -1,0 +1,29 @@
+.container__desconts{
+    padding: 3rem 0;
+    background-color: $yellow;
+        &__title{
+            display: flex;
+        justify-content: center;
+        color: $pink;
+        font-size: 2rem;
+        padding:3rem;
+        }
+}
+
+
+.container__desconts__inscricao{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+        &__input{
+            padding:5px 0;
+
+        }
+
+         &__button{
+            padding: 0.2rem;
+            
+            
+        }
+}
